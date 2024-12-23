@@ -1,10 +1,7 @@
 
 # In-Depth Guide to Clearn Architecture With MVVM in Flutter: Mastering State Management with Provider, Riverpod + BLoC
 
-In this Repo, I'll build a Flutter Ecommerce  Shop App from scratch, integrating Rest Apis. This step-by-step tutorial is perfect for beginners and those looking to deepen their understanding of Rest Apis. Join me to level up your Flutter development skills.
-
-
-Dive into the depths of Flutter's MVVM architecture with different state managements in this comprehensive course designed for intermediate to advanced and expert developers. Learn how to build a dynamic movie app that interacts with a REST API, manages local favorites, and incorporates genre mapping for enhanced functionality with Dark and Light themes. This course will guide you through the journey of implementing MVVM with different state management strategies—setState, Provider, Riverpod, and BLoC—each covered in dedicated sections to provide you with a robust understanding of each approach.
+In this Repo, I'll dive into the depths of Flutter's MVVM architecture with different state managements in this comprehensive course designed for intermediate to advanced and expert developers. Learn how to build a dynamic movie app that interacts with a REST API, manages local favorites, and incorporates genre mapping for enhanced functionality with Dark and Light themes. This course will guide you through the journey of implementing MVVM with different state management strategies—setState, Provider, Riverpod, and BLoC—each covered in dedicated sections to provide you with a robust understanding of each approach.
 
 
 ## Installation
