@@ -10,7 +10,7 @@ To run this app locally, follow these steps:
 1. Clone the repo locally
 
 ```bash
-git clone https://github.com/ariba1039/eccomerce_shop_app.git
+git clone https://github.com/ariba1039/mvvm_statemanagements.git
 
 ```
 2. Install dependencies:
