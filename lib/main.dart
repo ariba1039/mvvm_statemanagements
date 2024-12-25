@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mvvm_statemanagements/constants/theme_data.dart';
 import 'package:mvvm_statemanagements/screens/movies_screen.dart';
 
 void main() {
@@ -12,12 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter MVVM State Management',
-      theme: ThemeData(
-       
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
+      debugShowCheckedModeBanner: false,
+      title: 'Movies App',
+      theme:CustomThemeData.lightTheme,
       home: MoviesScreen(),
     );
   }
