@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mvvm_statemanagements/constants/app_constants.dart';
 import 'package:mvvm_statemanagements/constants/app_icons.dart';
 import 'package:mvvm_statemanagements/widgets/cached_image.dart';
+import 'package:mvvm_statemanagements/widgets/movies/movies_widget.dart';
 
 class MoviesScreen extends StatelessWidget {
   const MoviesScreen({super.key});
@@ -27,7 +29,7 @@ class MoviesScreen extends StatelessWidget {
         return 
       Padding(
         padding: const EdgeInsets.all(8.0),
-        child: CachedImageWidget(imgUrl: '',),
+        child:MoviesWidget(),
       );
       }),
       
