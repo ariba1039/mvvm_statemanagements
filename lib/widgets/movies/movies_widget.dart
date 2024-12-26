@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:mvvm_statemanagements/constants/app_constants.dart';
 import 'package:mvvm_statemanagements/constants/app_icons.dart';
 import 'package:mvvm_statemanagements/widgets/movies/favourite_btn.dart';
+import 'package:mvvm_statemanagements/widgets/movies/genres_list_widget.dart';
 
 import '../cached_image.dart';
 
@@ -46,7 +47,7 @@ class MoviesWidget extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const Text(
-                          'movieModel.originalTitle',
+                          'Movie title',
                           style: TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
                         ),
@@ -64,9 +65,9 @@ class MoviesWidget extends StatelessWidget {
                           ],
                         ),
                         const SizedBox(height: 10),
-                        // const GenresListWidget(
-                        //     // movieModel: movieModel,
-                        //     ),
+                       GenresListWidget(
+                       
+                          ),
                         Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,

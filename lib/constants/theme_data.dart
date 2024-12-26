@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_statemanagements/constants/app_colors.dart';
 
 class CustomThemeData {
   static final ThemeData lightTheme = ThemeData.light().copyWith(
