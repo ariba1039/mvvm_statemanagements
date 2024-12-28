@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm_statemanagements/constants/theme_data.dart';
 import 'package:mvvm_statemanagements/screens/favorites_screen.dart';
+import 'package:mvvm_statemanagements/screens/movies_detail_screen.dart';
 import 'package:mvvm_statemanagements/screens/movies_screen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Movies App',
       theme:CustomThemeData.lightTheme,
-      home: FavoritesScreen(),
+      home: MovieDetailsScreen(),
     );
   }
 }
